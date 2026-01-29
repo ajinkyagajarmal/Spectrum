@@ -287,7 +287,7 @@ export default function Home() {
                   Request a Consultation
                   <ArrowRight className="w-5 h-5 ml-2 inline" />
                 </Link>
-                <Link href="/solutions" className="btn-secondary !border-white !text-white hover:!bg-white hover:!text-navy text-lg px-8 py-4">
+                <Link href="/solutions" className="btn-secondary bg-white !border-navy !text-navy hover:!bg-white hover:!text-navy text-lg px-8 py-4">
                   Explore Solutions
                 </Link>
               </div>

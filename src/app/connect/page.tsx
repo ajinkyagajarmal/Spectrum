@@ -9,22 +9,22 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Visit Us',
-    details: ['Industrial Area, Sector 5', 'Mumbai, Maharashtra 400001', 'India'],
-    link: 'https://maps.google.com',
+    details: ['404, Shivai 1, Near Rashtra Seva Dal', 'Sadashiv Peth Pune 411030', 'India'],
+    link: 'https://www.google.com/maps/place/Shivneri+Ayurved+Multispeciality+Clinic+and+Panchakarma+Center/@18.5013152,73.846608,197m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0x3bc2c11231b37e09:0xe7ee6af037eac88f!2sShivai+2!8m2!3d18.5014311!4d73.8475207!16s%2Fg%2F11v12tf0w2!3m5!1s0x275d320494ec3f23:0x3fcc1fd79b304e89!8m2!3d18.5013139!4d73.8478257!16s%2Fg%2F11y3kzgnks!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDEyNi4wIKXMDSoASAFQAw%3D%3D',
     linkText: 'Get Directions',
   },
   {
     icon: Phone,
     title: 'Call Us',
-    details: ['+91 98765 43210', '+91 22 2345 6789'],
-    link: 'tel:+919876543210',
+    details: ['+91 9822912955', '+91 9890002320'],
+    link: 'tel:+919822912955',
     linkText: 'Call Now',
   },
   {
     icon: Mail,
     title: 'Email Us',
-    details: ['info@spectrum.com', 'sales@spectrum.com'],
-    link: 'mailto:info@spectrum.com',
+    details: ['uday.mhamane@spectrumllp.in', 'parth.mehendale@spectrumllp.in'],
+    link: 'mailto:uday.mhamane@spectrumllp.in',
     linkText: 'Send Email',
   },
   {
@@ -305,7 +305,7 @@ export default function ConnectPage() {
 
                   {/* Quick Response Promise */}
                   <div className="bg-gradient-to-br from-navy to-steel rounded-xl p-6 text-white">
-                    <h3 className="font-semibold mb-3">Quick Response Promise</h3>
+                    <h3 className="font-semibold mb-3 text-white">Quick Response Promise</h3>
                     <p className="text-gray-300 text-sm mb-4">
                       We understand the urgency of industrial requirements. Our team responds 
                       to all inquiries within 24 hours on business days.
@@ -329,13 +329,13 @@ export default function ConnectPage() {
             <SectionHeader
               subtitle="Our Location"
               title="Visit Our Office"
-              description="Located in the heart of Mumbai's industrial district, we're easily accessible."
+              description="Located in the heart of Pune's industrial district, we're easily accessible."
             />
           </AnimatedSection>
         </div>
         <div className="h-96 bg-gray-200">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.74109995!3d19.0821978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1635000000000!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d855.9925041336894!2d73.8466079751448!3d18.501315167899335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x275d320494ec3f23%3A0x3fcc1fd79b304e89!2sShivneri%20Ayurved%20Multispeciality%20Clinic%20and%20Panchakarma%20Center!5e1!3m2!1sen!2sin!4v1769697799824!5m2!1sen!2sin&layer=traffic"
             width="100%"
             height="100%"
             style={{ border: 0 }}

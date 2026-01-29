@@ -22,7 +22,7 @@ export default function Footer() {
   return (
     <footer className="bg-navy text-white">
       <div className="container-custom py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center mb-6">
@@ -55,8 +55,8 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
-            <ul className="space-y-3">
+            <h4 className="text-lg font-semibold mb-6 text-white">Quick Links</h4>
+            <ul className="grid grid-cols-3 md:grid-cols-1 gap-y-2 gap-x-*">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link
@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
 
           {/* Industries */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-6">Industries We Serve</h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li>Pharmaceutical</li>
@@ -81,40 +81,105 @@ export default function Footer() {
               <li>Mining & Marine</li>
               <li>Process Industries</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Contact Us</h4>
+          {/* <div>
+            <h4 className="text-lg font-semibold mb-6 text-white">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-steel mt-0.5 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  Industrial Area, Sector 5<br />
-                  Mumbai, Maharashtra 400001<br />
+                  404, Shivai 1, Near Rashtra Seva Dal,<br />
+                  Sadashiv Peth Pune 411030.<br />
                   India
                 </span>
               </li>
-              <li className="flex items-center space-x-3">
+              <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-steel flex-shrink-0" />
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919822912955"
+                  className="text-gray-300 hover:text-white transition-colors text-sm whitespace-nowrap"
+                >
+                  Uday Mhamane: +91 98229 12955
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone className="w-5 h-5 text-steel flex-shrink-0" />
+                <a
+                  href="tel:+919890002320"
+                  className="text-gray-300 hover:text-white transition-colors text-sm whitespace-nowrap"
+                >
+                  Parth Mehandale: +91 98900 02320
+                </a>
+              </li>
+              
+              <li className="flex items-center space-x-3">
+                <Mail className="w-5 h-5 text-steel flex-shrink-0" />
+                <a
+                  href="mailto:uday.mhamane@spectrumllp.in"
                   className="text-gray-300 hover:text-white transition-colors text-sm"
                 >
-                  +91 98765 43210
+                  uday.mhamane@spectrumllp.in
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-steel flex-shrink-0" />
                 <a
-                  href="mailto:info@spectrum.com"
+                  href="mailto:parth.mehendale@spectrumllp.in"
                   className="text-gray-300 hover:text-white transition-colors text-sm"
                 >
-                  info@spectrum.com
+                  parth.mehendale@spectrumllp.in
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
+          <div>
+  <h4 className="text-lg font-semibold mb-6 text-white">Contact Us</h4>
+
+  <ul className="space-y-6">
+    {/* Uday Mhamane */}
+    <li className="text-gray-300 text-sm">
+      <div className="font-semibold mb-1">Uday Mhamane</div>
+      <div className="flex items-center gap-2 mb-1">
+        <Phone className="w-5 h-5 text-steel flex-shrink-0" />
+        <a href="tel:+919822912955" className="hover:text-white transition-colors">
+          +91 98229 12955
+        </a>
+      </div>
+      <div className="flex items-center gap-2">
+        <Mail className="w-5 h-5 text-steel flex-shrink-0" />
+        <a
+          href="mailto:uday.mhamane@spectrumllp.in"
+          className="hover:text-white transition-colors"
+        >
+          uday.mhamane@spectrumllp.in
+        </a>
+      </div>
+    </li>
+
+    {/* Parth Mehandale */}
+    <li className="text-gray-300 text-sm">
+      <div className="font-semibold mb-1">Parth Mehandale</div>
+      <div className="flex items-center gap-2 mb-1">
+        <Phone className="w-5 h-5 text-steel flex-shrink-0" />
+        <a href="tel:+919890002320" className="hover:text-white transition-colors">
+          +91 98900 02320
+        </a>
+      </div>
+      <div className="flex items-center gap-2">
+        <Mail className="w-5 h-5 text-steel flex-shrink-0" />
+        <a
+          href="mailto:parth.mehendale@spectrumllp.in"
+          className="hover:text-white transition-colors"
+        >
+          parth.mehendale@spectrumllp.in
+        </a>
+      </div>
+    </li>
+  </ul>
+</div>
+
         </div>
       </div>
 
