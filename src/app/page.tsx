@@ -242,8 +242,8 @@ const capabilities = [
 const stats = [
   { value: 25, suffix: '+', label: 'Years of Experience' },
   { value: 8, suffix: '+', label: 'Industries Served' },
-  { value: 500, suffix: '+', label: 'Projects Completed' },
-  { value: 98, suffix: '%', label: 'Client Satisfaction' },
+  { value: 99, suffix: '%', label: 'Uptime Support' },
+  { value: 10, suffix: '+', label: 'Active Clients' },
 ];
 
 const features = [
@@ -387,7 +387,7 @@ export default function Home() {
                       <div className="text-sm text-gray-300">Industries</div>
                     </div>
                     <div className="bg-white/10 rounded-lg p-4">
-                      <div className="text-3xl font-bold">100+</div>
+                      <div className="text-3xl font-bold">10+</div>
                       <div className="text-sm text-gray-300">Clients</div>
                     </div>
                   </div>

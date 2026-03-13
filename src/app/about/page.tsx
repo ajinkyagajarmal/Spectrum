@@ -7,8 +7,8 @@ import ContactBanner from '@/components/ui/ContactBanner';
 const stats = [
   { value: 25, suffix: '+', label: 'Years of Experience' },
   { value: 8, suffix: '+', label: 'Industries Served' },
-  { value: 500, suffix: '+', label: 'Projects Completed' },
-  { value: 100, suffix: '+', label: 'Satisfied Clients' },
+  { value: 99, suffix: '%', label: 'Uptime Support' },
+  { value: 10, suffix: '+', label: 'Active Clients' },
 ];
 
 const values = [
@@ -115,7 +115,7 @@ export default function AboutPage() {
 
             <AnimatedSection animation="slide-in-right" delay={200}>
               <div className="bg-gradient-to-br from-navy to-steel rounded-2xl p-8 text-white">
-                <h3 className="text-2xl font-bold mb-6">Our Focus Areas</h3>
+                <h3 className="text-2xl font-bold mb-6 text-white">Our Focus Areas</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-steel-300 rounded-full mt-2" />
