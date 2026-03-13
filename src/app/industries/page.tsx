@@ -50,6 +50,17 @@ const industries = [
     ],
   },
   {
+    icon: Factory,
+    title: 'Process Industries',
+    description: 'Serving diverse process industries with versatile solutions for fluid handling, mixing, and material processing applications.',
+    challenges: [
+      'Complex process requirements',
+      'Multiple fluid handling',
+      'Energy efficiency goals',
+      'Emission control compliance',
+    ],
+  },
+  {
     icon: Mountain,
     title: 'Mining',
     description: 'Providing heavy-duty equipment solutions designed to withstand abrasive materials and harsh mining conditions.',
@@ -72,20 +83,9 @@ const industries = [
     ],
   },
   {
-    icon: Factory,
-    title: 'Process Industries',
-    description: 'Serving diverse process industries with versatile solutions for fluid handling, mixing, and material processing applications.',
-    challenges: [
-      'Complex process requirements',
-      'Multiple fluid handling',
-      'Energy efficiency goals',
-      'Emission control compliance',
-    ],
-  },
-  {
     icon: Beaker,
-    title: 'Research & Development',
-    description: 'Supporting R&D facilities with precision equipment for pilot plants, laboratories, and experimental processes.',
+    title: 'Power / Oil & Gas',
+    description: 'Supporting power and oil & gas industries with high-performance mechanical seals and industrial coatings, ensuring equipment reliability, leak prevention, and long-term protection in demanding environments.',
     challenges: [
       'Varied scale requirements',
       'Precision and accuracy needs',
@@ -179,11 +179,11 @@ export default function IndustriesPage() {
                   <div className="text-gray-300">Years Experience</div>
                 </div>
                 <div className="bg-steel rounded-xl p-6 text-white">
-                  <div className="text-4xl font-bold mb-2">500+</div>
-                  <div className="text-gray-300">Projects Delivered</div>
+                  <div className="text-4xl font-bold mb-2">99%</div>
+                  <div className="text-gray-300">Uptime Support</div>
                 </div>
                 <div className="bg-navy rounded-xl p-6 text-white">
-                  <div className="text-4xl font-bold mb-2">100+</div>
+                  <div className="text-4xl font-bold mb-2">10+</div>
                   <div className="text-gray-300">Active Clients</div>
                 </div>
               </div>

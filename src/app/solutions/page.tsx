@@ -17,28 +17,21 @@ const solutions = [
     title: 'Corrosion Protection Solutions',
     problem: 'Corrosion costs industries billions annually, causing equipment failure, safety risks, and production downtime. Aggressive chemicals, humid environments, and harsh conditions accelerate metal degradation.',
     approach: 'Our corrosion-resistant paints and coatings provide long-lasting protection for tanks, pipes, structural steel, and equipment. We offer solutions for various environments including chemical exposure, marine conditions, and high humidity.',
-    relatedProducts: ['Corrosion-Resistant Paints', 'Epoxy Coatings', 'Chemical-Resistant Linings', 'Marine Coatings'],
+    relatedProducts: ['Corrosion-Resistant Paints','Marine Coatings'],
   },
-  {
-    icon: Thermometer,
-    title: 'Heat-Resistant & Insulation Solutions',
-    problem: 'High-temperature processes damage conventional materials, leading to frequent maintenance, energy loss, and potential safety hazards. Heat transfer inefficiency increases operating costs.',
-    approach: 'Spectrum offers specialized heat-resistant paints and insulation coatings that withstand extreme temperatures while improving energy efficiency. Our solutions protect equipment and reduce heat loss in furnaces, boilers, and hot process equipment.',
-    relatedProducts: ['Heat-Resistant Paints', 'Thermal Insulation Coatings', 'High-Temperature Seals', 'Refractory Coatings'],
-  },
+  // {
+  //   icon: Thermometer,
+  //   title: 'Heat-Resistant & Insulation Solutions',
+  //   problem: 'High-temperature processes damage conventional materials, leading to frequent maintenance, energy loss, and potential safety hazards. Heat transfer inefficiency increases operating costs.',
+  //   approach: 'Spectrum offers specialized heat-resistant paints and insulation coatings that withstand extreme temperatures while improving energy efficiency. Our solutions protect equipment and reduce heat loss in furnaces, boilers, and hot process equipment.',
+  //   relatedProducts: ['Heat-Resistant Paints', 'Thermal Insulation Coatings', 'High-Temperature Seals', 'Refractory Coatings'],
+  // },
   {
     icon: Zap,
     title: 'Antistatic & Electrical Insulation',
     problem: 'Static electricity in industrial environments poses fire and explosion risks, especially when handling flammable materials. Electrical equipment requires proper insulation to prevent shorts and ensure safety.',
     approach: 'Our antistatic paints dissipate static buildup safely, while electrical insulation coatings protect equipment and personnel. These solutions are critical for pharmaceutical, chemical, and electronics manufacturing.',
-    relatedProducts: ['Antistatic Paints', 'Electrical Insulation Coatings', 'Conductive Flooring', 'ESD Solutions'],
-  },
-  {
-    icon: Gauge,
-    title: 'Pump Efficiency & Reliability',
-    problem: 'Pump failures cause unplanned downtime, production losses, and costly emergency repairs. Inefficient pumps waste energy and increase operating costs significantly over time.',
-    approach: 'Spectrum supplies high-quality industrial pumps and genuine spares that maximize reliability and efficiency. Our mechanical seals and support systems extend pump life and reduce maintenance frequency.',
-    relatedProducts: ['Industrial Pumps', 'Pump Spares', 'Mechanical Seals', 'Seal Support Systems'],
+    relatedProducts: ['Antistatic Paints', 'Electrical Insulation Coatings', 'Conductive Flooring'],
   },
   {
     icon: Wrench,
@@ -46,6 +39,13 @@ const solutions = [
     problem: 'Reactive maintenance leads to unexpected failures and higher costs. Many plants struggle to implement effective preventive maintenance programs due to lack of expertise and proper solutions.',
     approach: 'We help plants transition from reactive to preventive maintenance with quality products that last longer and technical support that identifies maintenance opportunities. Our approach reduces total cost of ownership.',
     relatedProducts: ['Quality Seals', 'Reliable Pumps', 'Protective Coatings', 'Technical Consulting'],
+  },
+    {
+    icon: Gauge,
+    title: 'Pump Efficiency & Reliability',
+    problem: 'Pump failures cause unplanned downtime, production losses, and costly emergency repairs. Inefficient pumps waste energy and increase operating costs significantly over time.',
+    approach: 'Spectrum supplies genuine spares that maximize reliability and efficiency. Our mechanical seals and support systems extend pump life and reduce maintenance frequency.',
+    relatedProducts: ['Mechanical Seals', 'Seal Support Systems','Pump Spares','Industrial Pumps'],
   },
 ];
 
@@ -136,14 +136,14 @@ export default function SolutionsPage() {
 
             <AnimatedSection animation="slide-in-right" delay={200}>
               <div className="bg-gradient-to-br from-navy to-steel rounded-2xl p-8 text-white">
-                <h3 className="text-2xl font-bold mb-6">Why Our Solutions Work</h3>
+                <h3 className="text-2xl font-bold mb-6 text-white">Why Our Solutions Work</h3>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0">
                       <span className="text-xl font-bold">1</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-1">Deep Industry Knowledge</h4>
+                      <h4 className="font-semibold mb-1 text-white">Deep Industry Knowledge</h4>
                       <p className="text-gray-300 text-sm">25+ years of experience across process industries</p>
                     </div>
                   </div>
@@ -152,7 +152,7 @@ export default function SolutionsPage() {
                       <span className="text-xl font-bold">2</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-1">Quality-First Products</h4>
+                      <h4 className="font-semibold mb-1 text-white">Quality-First Products</h4>
                       <p className="text-gray-300 text-sm">Only proven, reliable products from trusted sources</p>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ export default function SolutionsPage() {
                       <span className="text-xl font-bold">3</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-1">Technical Excellence</h4>
+                      <h4 className="font-semibold mb-1 text-white">Technical Excellence</h4>
                       <p className="text-gray-300 text-sm">Expert engineering support at every step</p>
                     </div>
                   </div>
@@ -170,7 +170,7 @@ export default function SolutionsPage() {
                       <span className="text-xl font-bold">4</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-1">Results-Focused</h4>
+                      <h4 className="font-semibold mb-1 text-white">Results-Focused</h4>
                       <p className="text-gray-300 text-sm">Measurable improvements in your operations</p>
                     </div>
                   </div>
@@ -183,7 +183,7 @@ export default function SolutionsPage() {
 
       {/* Contact Banner */}
       <ContactBanner
-        title="Have a Challenge We Can Solve?"
+        title="Have a Challenge? We've Got a Solution."
         description="Let's discuss your specific requirements and find the right solution together."
         buttonText="Start the Conversation"
       />

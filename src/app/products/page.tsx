@@ -3,6 +3,7 @@ import AnimatedSection from '@/components/ui/AnimatedSection';
 import SectionHeader from '@/components/ui/SectionHeader';
 import ProductCard from '@/components/ui/ProductCard';
 import ContactBanner from '@/components/ui/ContactBanner';
+import image1 from '@/app/Assets/mechanical seals.jpg';
 
 const productCategories = [
   {
@@ -12,7 +13,7 @@ const productCategories = [
       {
         icon: Settings,
         title: 'Single Mechanical Seals',
-        description: 'Reliable single seals for standard pump applications with various face materials and elastomers.',
+        description: 'Single seals for standard pump applications with various face materials and elastomers.',
         applications: ['Centrifugal Pumps', 'Process Pumps', 'Mixers'],
         industries: ['Pharmaceutical', 'Chemical', 'Food Processing'],
         image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop',
@@ -32,36 +33,6 @@ const productCategories = [
         applications: ['Seal Cooling', 'Pressure Control', 'Flush Systems'],
         industries: ['All Process Industries'],
         image: 'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=300&fit=crop',
-      },
-    ],
-  },
-  {
-    title: 'Industrial Pumps & Valves',
-    description: 'Complete range of pumps and valves for demanding industrial applications.',
-    products: [
-      {
-        icon: Droplets,
-        title: 'Centrifugal Pumps',
-        description: 'High-efficiency centrifugal pumps for various flow rates and head requirements.',
-        applications: ['Water Transfer', 'Process Fluids', 'Chemical Transfer'],
-        industries: ['Chemical', 'Water Treatment', 'Manufacturing'],
-        image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=300&fit=crop',
-      },
-      {
-        icon: Droplets,
-        title: 'Positive Displacement Pumps',
-        description: 'Gear, lobe, and progressive cavity pumps for viscous and shear-sensitive fluids.',
-        applications: ['Viscous Fluids', 'Metering', 'Food Products'],
-        industries: ['Food Processing', 'Pharmaceutical', 'Chemical'],
-        image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=400&h=300&fit=crop',
-      },
-      {
-        icon: Gauge,
-        title: 'Pump Spares & Valves',
-        description: 'Genuine replacement parts, impellers, wear rings, and industrial valves.',
-        applications: ['Maintenance', 'Upgrades', 'Flow Control'],
-        industries: ['All Process Industries'],
-        image: 'https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=400&h=300&fit=crop',
       },
     ],
   },
@@ -100,6 +71,36 @@ const productCategories = [
         applications: ['Motors', 'Transformers', 'Switchgear', 'Cables'],
         industries: ['Power', 'Manufacturing', 'Utilities'],
         image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
+      },
+    ],
+  },
+    {
+    title: 'Centrifugal Pumps & AMC’s',
+    description: 'Complete range of pumps and valves for demanding industrial applications.',
+    products: [
+      {
+        icon: Droplets,
+        title: 'Centrifugal Pumps',
+        description: 'High-efficiency centrifugal pumps for various flow rates and head requirements.',
+        applications: ['Water Transfer', 'Process Fluids', 'Chemical Transfer'],
+        industries: ['Chemical', 'Water Treatment', 'Manufacturing'],
+        image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=300&fit=crop',
+      },
+      {
+        icon: Droplets,
+        title: 'Positive Displacement Pumps',
+        description: 'Gear, lobe, and progressive cavity pumps for viscous and shear-sensitive fluids.',
+        applications: ['Viscous Fluids', 'Metering', 'Food Products'],
+        industries: ['Food Processing', 'Pharmaceutical', 'Chemical'],
+        image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=400&h=300&fit=crop',
+      },
+      {
+        icon: Gauge,
+        title: 'Pump Spares & Valves',
+        description: 'Genuine replacement parts, impellers, wear rings, and industrial valves.',
+        applications: ['Maintenance', 'Upgrades', 'Flow Control'],
+        industries: ['All Process Industries'],
+        image: 'https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=400&h=300&fit=crop',
       },
     ],
   },

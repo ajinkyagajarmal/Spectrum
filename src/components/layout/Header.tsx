@@ -9,9 +9,9 @@ import logo from '@/app/Assets/Spectrum._Blue-01.svg';
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
-  { href: '/industries', label: 'Industries' },
-  { href: '/solutions', label: 'Solutions' },
   { href: '/products', label: 'Products' },
+  { href: '/solutions', label: 'Solutions' },
+  { href: '/industries', label: 'Industries' },
   { href: '/connect', label: 'Connect' },
 ];
 
